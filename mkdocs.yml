@@ -4,8 +4,9 @@ copyright: Copyright &copy; 2026 Bluecom. All rights reserved.
 theme:
   name: material
   font:
-    text: Inter
+    text: Manrope
     code: JetBrains Mono
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -67,6 +68,8 @@ nav:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
