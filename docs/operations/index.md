@@ -1,5 +1,7 @@
 # Operations
 
-Day-2 concerns: tracking users, monitoring, dashboard, support.
+Post-launch concerns:
 
-> _Stub — to be drafted._
+- **[Tracking events](tracking-events.md)** — wire user funnel events into your own analytics.
+- **[Dashboard](dashboard.md)** — orders, revenue, and refunds (roadmap).
+- **[Support](support.md)** — contacts and escalation.
