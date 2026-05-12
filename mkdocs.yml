@@ -1,22 +1,37 @@
 site_name: Bluecom Documentation
 site_description: Bluecom eSIM platform documentation
+copyright: Copyright &copy; 2026 Bluecom. All rights reserved.
 theme:
   name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - navigation.path
     - navigation.top
+    - navigation.indexes
+    - toc.follow
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
     - search.suggest
     - search.highlight
+    - search.share
   palette:
     - scheme: default
-      primary: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -70,6 +85,12 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra:
+  generator: false
+
+extra_css:
+  - assets/stylesheets/bluecom.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js

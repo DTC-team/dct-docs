@@ -1,0 +1,36 @@
+/* Bluecom brand palette — navy blue + orange (from the BLUECOM logo). */
+
+:root {
+  --bluecom-blue: #1a3f8c;
+  --bluecom-blue-dark: #0f2a63;
+  --bluecom-blue-light: #2d5fbf;
+  --bluecom-orange: #f08c2b;
+  --bluecom-orange-dark: #d27418;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--bluecom-blue);
+  --md-primary-fg-color--light: var(--bluecom-blue-light);
+  --md-primary-fg-color--dark: var(--bluecom-blue-dark);
+  --md-accent-fg-color: var(--bluecom-orange);
+  --md-typeset-a-color: var(--bluecom-blue);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--bluecom-blue-light);
+  --md-primary-fg-color--light: #5b85d8;
+  --md-primary-fg-color--dark: var(--bluecom-blue);
+  --md-accent-fg-color: var(--bluecom-orange);
+  --md-typeset-a-color: #93b4f5;
+}
+
+/* Tighten heading rhythm a touch. */
+.md-typeset h1 { font-weight: 700; letter-spacing: -0.01em; }
+.md-typeset h2 { font-weight: 650; }
+
+/* Soft border on tables to fit the brand look. */
+.md-typeset table:not([class]) {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
