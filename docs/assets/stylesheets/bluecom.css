@@ -461,6 +461,27 @@ body, .md-typeset {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* ---------- Fallback banner (i18n) ---------- */
+.bc-fallback-banner {
+  margin: 1rem 0.8rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(232,116,42,0.1), rgba(232,116,42,0.04));
+  border: 1px solid rgba(232,116,42,0.35);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--bc-ink);
+}
+[data-md-color-scheme="slate"] .bc-fallback-banner {
+  color: var(--bc-cream);
+  background: linear-gradient(180deg, rgba(232,116,42,0.16), rgba(232,116,42,0.06));
+}
+.bc-fallback-banner strong { color: var(--bc-orange); margin-right: 0.3rem; }
+.bc-fallback-banner code {
+  background: rgba(15,39,71,0.06);
+  padding: 0.05em 0.4em;
+}
+
 /* ---------- Selection ---------- */
 ::selection {
   background: var(--bc-orange);

@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block content %}
+  {% if config.theme.language == 'vi' and page and page.file and page.file.src_uri.endswith('.en.md') %}
+    <div class="bc-fallback-banner" role="status">
+      <strong>Bản dịch chưa có sẵn.</strong>
+      Trang này đang hiển thị nội dung tiếng Anh. Liên hệ <code>integration@bluecom.com.vn</code> nếu bạn cần bản tiếng Việt sớm.
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   <link rel="preconnect" href="https://fonts.googleapis.com">

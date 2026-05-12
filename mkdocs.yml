@@ -8,8 +8,6 @@ theme:
     code: IBM Plex Mono
   custom_dir: overrides
   features:
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
@@ -90,9 +88,53 @@ markdown_extensions:
 
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: vi
+          name: Tiếng Việt
+          build: true
+          site_name: Tài liệu Bluecom
+          nav_translations:
+            Home: Trang chủ
+            Overview: Tổng quan
+            Architecture: Kiến trúc
+            Onboarding: Onboarding
+            Checklist: Danh sách kiểm tra
+            Request Access: Yêu cầu truy cập
+            Environments: Môi trường
+            Integration: Tích hợp
+            Authentication: Xác thực
+            Embedding: Nhúng
+            Session Lifecycle: Vòng đời phiên
+            Payment Return: Trả về thanh toán
+            Customization: Tuỳ chỉnh
+            Theming: Giao diện
+            Localization: Đa ngôn ngữ
+            Operations: Vận hành
+            Tracking Events: Sự kiện theo dõi
+            Dashboard: Bảng điều khiển
+            Support: Hỗ trợ
+            Reference: Tham chiếu
+            Error Codes: Mã lỗi
+            Glossary: Thuật ngữ
 
 extra:
   generator: false
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Tiếng Việt
+      link: /vi/
+      lang: vi
 
 extra_css:
   - assets/stylesheets/bluecom.css
