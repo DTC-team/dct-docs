@@ -1,0 +1,70 @@
+site_name: Bluecom Documentation
+site_description: Bluecom eSIM platform documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Overview:
+      - overview/index.md
+      - Architecture: overview/architecture.md
+  - Onboarding:
+      - onboarding/index.md
+      - Checklist: onboarding/checklist.md
+      - Request Access: onboarding/request-access.md
+      - Environments: onboarding/environments.md
+  - Integration:
+      - integration/index.md
+      - Authentication: integration/authentication.md
+      - Embedding: integration/embedding.md
+      - Session Lifecycle: integration/session-lifecycle.md
+      - Payment Return: integration/payment-return.md
+  - Customization:
+      - customization/index.md
+      - Theming: customization/theming.md
+      - Localization: customization/localization.md
+  - Operations:
+      - operations/index.md
+      - Tracking Events: operations/tracking-events.md
+      - Dashboard: operations/dashboard.md
+      - Support: operations/support.md
+  - Reference:
+      - Error Codes: reference/error-codes.md
+      - Glossary: reference/glossary.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
