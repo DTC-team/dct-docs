@@ -5,7 +5,7 @@
 
 ## What you can get today
 
-Reach out to `integrations@bluecom.vn` for ad-hoc reports:
+Reach out to `integration@bluecom.com.vn` for ad-hoc reports:
 
 - Order list for a date range
 - Revenue summary by SKU / country

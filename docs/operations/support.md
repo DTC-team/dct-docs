@@ -2,7 +2,7 @@
 
 | Channel | Contact |
 |---------|---------|
-| Onboarding & business | `integrations@bluecom.vn` |
+| Onboarding & business | `integration@bluecom.com.vn` |
 | Technical / production incidents | `<TBD ops contact>` |
 | Status page | `<TBD>` |
 

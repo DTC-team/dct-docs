@@ -1,6 +1,6 @@
 # Request Access
 
-Send the following to `integrations@bluecom.vn`. Bluecom replies within 1 business day with credentials.
+Send the following to `integration@bluecom.com.vn`. Bluecom replies within 1 business day with credentials.
 
 ```
 Legal entity:           <Company Ltd.>

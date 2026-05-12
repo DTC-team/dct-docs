@@ -24,6 +24,15 @@ OKLCh CSS custom properties:
 - Component shapes (radii, borders)
 - Iconography
 
+## Lead times
+
+| Request | Bluecom turnaround |
+|---------|---------------------|
+| Initial theme provisioning during onboarding | **2 business days** |
+| Color token update after launch | **1 business day** |
+| Logo asset update | **1 business day** |
+| Full re-theme (multiple tokens + assets) | **3 business days** |
+
 ## Changing your theme after launch
 
-Email `integrations@bluecom.vn` with the new tokens. Changes apply on the next deploy (typically within 1 business day).
+Email `integration@bluecom.com.vn` with the new tokens. Bluecom acknowledges within 4 business hours and ships per the turnaround above.
