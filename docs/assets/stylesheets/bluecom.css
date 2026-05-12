@@ -14,9 +14,9 @@
   --bc-ink:         #14192b;
   --bc-ink-mute:    #4a5374;
 
-  --bc-display: "Fraunces", "Times New Roman", serif;
-  --bc-body:    "Manrope", system-ui, sans-serif;
-  --bc-mono:    "JetBrains Mono", ui-monospace, monospace;
+  --bc-display: "IBM Plex Serif", "Georgia", serif;
+  --bc-body:    "IBM Plex Sans", system-ui, sans-serif;
+  --bc-mono:    "IBM Plex Mono", ui-monospace, monospace;
 }
 
 /* ---------- Light scheme ---------- */
@@ -385,7 +385,10 @@ body, .md-typeset {
   margin: 1.6rem 0 2.4rem;
 }
 .bc-journey a {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 9rem;
   padding: 1.2rem 1.2rem 1.1rem;
   border-radius: 12px;
   border: 1px solid rgba(15,39,71,0.1);
@@ -405,18 +408,20 @@ body, .md-typeset {
   box-shadow: 0 24px 48px -32px rgba(15,39,71,0.5);
   border-color: rgba(232,116,42,0.5);
 }
-.bc-journey a::before {
-  content: attr(data-step);
+.bc-journey a::after {
+  content: "→";
   position: absolute;
-  top: 0.7rem;
-  right: 1rem;
-  font-family: var(--bc-display);
-  font-variation-settings: "opsz" 144;
-  font-size: 2.4rem;
-  font-weight: 600;
+  top: 0.95rem;
+  right: 1.1rem;
+  font-family: var(--bc-mono);
+  font-size: 1rem;
   color: var(--bc-orange);
-  opacity: 0.45;
-  line-height: 1;
+  opacity: 0.55;
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+.bc-journey a:hover::after {
+  opacity: 1;
+  transform: translateX(4px);
 }
 .bc-journey strong {
   display: block;

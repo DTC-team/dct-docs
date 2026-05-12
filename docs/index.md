@@ -16,27 +16,27 @@ Bluecom eSIM Shop lets your users browse, purchase, and manage data plans withou
 
 <div class="bc-journey" markdown>
 
-<a href="overview/" data-step="01">
+<a href="overview/">
   <strong>Overview</strong>
   <small>What Bluecom eSIM Shop is and how the pieces fit together.</small>
 </a>
 
-<a href="onboarding/" data-step="02">
+<a href="onboarding/">
   <strong>Onboarding</strong>
   <small>Checklist, access request, environments — about five business days.</small>
 </a>
 
-<a href="integration/" data-step="03">
+<a href="integration/">
   <strong>Integration</strong>
   <small>Authentication, embedding, session, payment return.</small>
 </a>
 
-<a href="customization/" data-step="04">
+<a href="customization/">
   <strong>Customization</strong>
   <small>Theming and localization for your brand.</small>
 </a>
 
-<a href="operations/" data-step="05">
+<a href="operations/">
   <strong>Operations</strong>
   <small>Tracking events, marketplace dashboard, support.</small>
 </a>

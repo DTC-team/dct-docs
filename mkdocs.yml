@@ -4,18 +4,20 @@ copyright: Copyright &copy; 2026 Bluecom. All rights reserved.
 theme:
   name: material
   font:
-    text: Manrope
-    code: JetBrains Mono
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   custom_dir: overrides
   features:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.top
     - navigation.indexes
+    - navigation.footer
     - toc.follow
     - content.code.copy
     - content.code.annotate
