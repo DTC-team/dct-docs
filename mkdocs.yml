@@ -53,6 +53,13 @@ nav:
       - Embedding: integration/embedding.md
       - Session Lifecycle: integration/session-lifecycle.md
       - Payment Return: integration/payment-return.md
+  - Payment Gateway:
+      - payment-gateway/index.md
+      - Architecture: payment-gateway/architecture.md
+      - Checklist: payment-gateway/checklist.md
+      - Webhook Contract: payment-gateway/webhook-contract.md
+      - Testing & Go-Live: payment-gateway/testing.md
+      - Timeline: payment-gateway/timeline.md
   - Customization:
       - customization/index.md
       - Theming: customization/theming.md
@@ -115,6 +122,10 @@ plugins:
             Embedding: Nhúng
             Session Lifecycle: Vòng đời phiên
             Payment Return: Trả về thanh toán
+            Payment Gateway: Cổng thanh toán
+            Webhook Contract: Hợp đồng Webhook
+            Testing & Go-Live: Kiểm thử & Go-Live
+            Timeline: Lộ trình
             Customization: Tuỳ chỉnh
             Theming: Giao diện
             Localization: Đa ngôn ngữ
